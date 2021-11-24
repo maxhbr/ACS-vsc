@@ -1,0 +1,37 @@
+{
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "created": "2021-11-23T01:12:27Z",
+    "creators": [ ]
+  },
+  "name": "wasm_game_of_life",
+  "documentNamespace": "https://maxhbr/ACS-vsc",
+  "externalDocumentRefs": [
+    {
+      "externalDocumentId": "DocumentRef-base-img",
+      "spdxDocument": "spdx://ce34158d-c7c2-4a70-8f9f-1fdd32bcb275"
+    },
+    {
+      "externalDocumentId": "DocumentRef-app",
+      "spdxDocument": "https://spdx.org/spdxdocs/tern-report-2.8.0-organization2node-e01f7d0d-ff50-4a5f-b862-96a4e920a771"
+    }
+  ],
+  "documentDescribes": [
+    "SPDXRef-wasm_game_of_life"
+  ],
+  "packages": [ ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-wasm_game_of_life",
+      "relatedSpdxElement": "DocumentRef-base-img",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-wasm_game_of_life",
+      "relatedSpdxElement": "DocumentRef-app",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}
